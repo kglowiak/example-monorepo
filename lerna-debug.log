@@ -1,0 +1,10 @@
+0 silly argv { _: [ 'run' ],
+0 silly argv   lernaVersion: '3.4.0',
+0 silly argv   '$0': 'node_modules\\lerna\\cli.js',
+0 silly argv   script: 'test' }
+1 notice cli v3.4.0
+2 verbose rootPath C:\Sources\lerna-example
+3 error JSONError: Unexpected token / in JSON at position 305 while parsing near '...  },  "scripts": {//    "test": "react...' in packages\shared\package.json
+3 error     at module.exports (C:\Sources\lerna-example\node_modules\load-json-file\node_modules\parse-json\index.js:26:19)
+3 error     at parse (C:\Sources\lerna-example\node_modules\load-json-file\index.js:8:29)
+3 error     at pify.then.data (C:\Sources\lerna-example\node_modules\load-json-file\index.js:10:67)

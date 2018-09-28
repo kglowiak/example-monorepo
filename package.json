@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.4.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "compile": "lerna run compile",
+    "test": "lerna run test"
+  }
+}
