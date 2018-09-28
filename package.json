@@ -8,6 +8,6 @@
   ],
   "scripts": {
     "compile": "lerna run compile",
-    "test": "lerna run test"
+    "test": "lerna run test --stream --parallel"
   }
 }
